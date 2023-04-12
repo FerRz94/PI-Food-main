@@ -1,0 +1,37 @@
+.image {
+  max-width: 240px;
+  height: 160px;
+  overflow: hidden;
+}
+
+.card.image {
+  width: 100%;
+}
+
+.div_info_card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  padding: 10px;
+  color: var(--verde-musgo);
+  /* background-color: black; */
+}
+
+.card.name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--verde-musgo);
+}
+
+.card.typeDiets {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--naranja);
+}
+
+.card.healthScore {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--blanco-mate);
+  margin-top: 5px;
+}

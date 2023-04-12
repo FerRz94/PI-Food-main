@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Nunito:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  /*----COLORES----*/
+
+  --blanco-mate: #f4f2ec;
+  --marron-claro: #b8a18e;
+  --verde-musgo: #738557;
+  --naranja: #f16613;
+
+  --gris-oscuro: #565656;
+  --gris-claro: #787878;
+  --gris-muy-claro: #9a9a9a;
+  --gris-search-bar: #efefef;
+  --gris-placeholder: #b8b8b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 15px;
+}

@@ -1,0 +1,112 @@
+body {
+  background-color: var(--blanco-mate);
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 34px 30px;
+}
+.logo {
+  font-family: "Nunito";
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  color: #320000;
+}
+.acceder {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5%;
+  color: #320000;
+  background-color: var(--naranja);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.acceder:hover {
+  background-color: var(--verde-musgo);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.main_left {
+  max-width: 350px;
+  margin-top: 200px;
+}
+.titulo {
+  font-family: "Nunito";
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 55px;
+  letter-spacing: 0.5%;
+  color: #320000;
+}
+.titulo_receta {
+  color: var(--naranja);
+}
+
+.sub_titulo {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--gris-oscuro);
+  letter-spacing: 0.5%;
+  line-height: 20px;
+  max-width: 285px;
+  margin: 16px 0 38px 0;
+}
+.acceder_grande {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--blanco-mate);
+  background-color: var(--verde-musgo);
+  border: none;
+  border-radius: 12px;
+  max-width: 200px;
+  padding: 18px 10px 18px 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.acceder_grande:hover {
+  gap: 20px;
+  background-color: var(--naranja);
+}
+.arrow {
+  width: 13px;
+  margin-top: 2px;
+}
+
+.main_right {
+  max-width: 590px;
+  margin-right: 14px;
+}
+
+.hero_responsive {
+  display: none;
+}
+.hero_mobile {
+  display: none;
+}
